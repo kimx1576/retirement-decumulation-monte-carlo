@@ -1,0 +1,14 @@
+metric,value
+Baseline success @ WR=4%,0.866
+Put success @ WR=4%,0.8818
+Collar success @ WR=4%,0.6292
+Guardrail success @ WR=4%,0.9273
+Guardrail+Put success @ WR=4%,0.9442
+Best Grid (Guardrail+Put) success,0.9764
+Best Grid params,"hy=20, strike=-0.1, prem=0.005"
+Max WR @ >=90% success (Baseline),0.035
+Max WR @ >=90% success (Guardrail),0.04250000000000001
+Max WR @ >=90% success (Guardrail+Put),0.05000000000000002
+Max WR @ >=95% success (Baseline),0.03
+Max WR @ >=95% success (Guardrail),0.035
+Max WR @ >=95% success (Guardrail+Put),0.04250000000000001
